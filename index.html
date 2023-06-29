@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Maxidev Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">0</div>
+    <div class="keys">
+      <button class="key operator" data-action="operator" data-operator="/">÷</button>
+      <button class="key" data-action="number">7</button>
+      <button class="key" data-action="number">8</button>
+      <button class="key" data-action="number">9</button>
+      <button class="key operator" data-action="operator" data-operator="*">&times;</button>
+      <button class="key" data-action="number">4</button>
+      <button class="key" data-action="number">5</button>
+      <button class="key" data-action="number">6</button>
+      <button class="key operator" data-action="operator" data-operator="-">-</button>
+      <button class="key" data-action="number">1</button>
+      <button class="key" data-action="number">2</button>
+      <button class="key" data-action="number">3</button>
+      <button class="key operator" data-action="operator" data-operator="+">+</button>
+      <button class="key" data-action="number">0</button>
+      <button class="key decimal" data-action="decimal">.</button>
+      <button class="key clear" data-action="clear">AC</button>
+      <button class="key equal" data-action="calculate">=</button>
+    </div>
+  </div>
+
+  <script src="calculator.js"></script>
+</body>
+</html>
